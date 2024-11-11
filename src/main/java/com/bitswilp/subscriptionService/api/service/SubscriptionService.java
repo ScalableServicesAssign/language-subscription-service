@@ -9,4 +9,6 @@ public interface SubscriptionService {
     Subscription getSubscriptionById(Long id);
     Subscription createSubscription(SubscriptionDto subscriptionDto);
     List<Subscription> getAllSubscriptions();
+    Subscription updateSubscription(Long id, SubscriptionDto subscriptionDto);
+    void deleteSubscription(Long id);
 }
